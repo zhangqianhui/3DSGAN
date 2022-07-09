@@ -1,0 +1,42 @@
+data:
+  dataset_name: fashion
+  path: data/fashionGAN/fashionHQ_test/*.jpg
+  img_size: 256
+  celebA_center_crop: False
+model:
+  background_generator_kwargs:
+    rgb_out_dim: 256
+  bounding_box_generator_kwargs:
+    scale_range_min: [0.2, 0.16, 0.16]
+    scale_range_max: [0.25, 0.2, 0.2]
+    translation_range_min: [0., 0., 0.]
+    translation_range_max: [0., 0., 0.]
+    rotation_range: [0.0, 1.0]
+  generator_kwargs:
+    range_v: [0.4167, 0.5]
+    fov: 10
+    app_dim: 128
+  neural_renderer_kwargs:
+    input_dim: 128
+    n_feat: 256
+    out_dim: 8
+  discriminator_kwargs:
+    in_dim: 8
+  stylegenerators_kwargs:
+    size: 256
+    n_mlp: 8
+    style_dim: 512
+    channel_multiplier: 2
+    checkpoint_path: ./pretrained_models/320000.pt
+  decoder_kwargs:
+    rgb_out_dim: 128
+training:
+  out_dir: out/fashion256_v10_16
+  learning_rate: 0.0001
+  multi_gpu: True
+  batch_size: 14
+rendering:
+  render_program: ['object_rotation', 'interpolate_app', 'interpolate_pose']
+test:
+  model_file: model.pt
+  is_training: False

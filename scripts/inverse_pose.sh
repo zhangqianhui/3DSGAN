@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python inverse_semantic.py configs/fashion_inverse.yaml
