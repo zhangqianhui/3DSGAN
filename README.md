@@ -73,7 +73,7 @@ bash scripts/inverse_human.sh
 
 To-do list
 
-## Geometry Visualization using Normal
+## Geometry Visualization using the Normal
 
 ![Teaser image](./docs/normal.jpg)
 
