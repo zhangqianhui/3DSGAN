@@ -92,7 +92,7 @@ To-do list
 ```
 @article{zhang20213d,
   title={3D-Aware Semantic-Guided Generative Model for Human Synthesis},
-  author={ichao, Zhang and Sangineto, Enver and Tang, Hao and Siarohin, Aliaksandr and Zhong, Zhun and Sebe, Nicu and Wang, Wei},
+  author={Jichao, Zhang and Sangineto, Enver and Tang, Hao and Siarohin, Aliaksandr and Zhong, Zhun and Sebe, Nicu and Wang, Wei},
   journal={ECCV},
   year={2022}
 }
