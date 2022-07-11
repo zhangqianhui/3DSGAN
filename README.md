@@ -1,4 +1,4 @@
-## 3D-Aware Semantic-Guided Generative Model for Human Synthesis (3D-SGAN) <br><sub>Official PyTorch implementation of the ECCV 2022 paper</sub>
+## 3D-Aware Semantic-Guided Generative Model for Human Synthesis (3D-SGAN) <br><sub>Official PyTorch implementation of our ECCV 2022 paper</sub>
 
 ![Teaser image](./docs/teaser.jpg)
 
