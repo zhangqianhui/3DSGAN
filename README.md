@@ -22,13 +22,13 @@ with a photo-realistic, controllable generation. Our experiments on the DeepFash
 
 > Paper: https://arxiv.org/abs/2112.01422 <br>
 
-## Install:
+## Install
 ```
 conda env create -f environment.yml
 conda activate sgan
 ```
 
-## Dataset:
+## Dataset
 
 To-do lists
 
@@ -48,7 +48,7 @@ bash scripts/train_fashion.sh
 bash scripts/train_VITON.sh
 ```
 
-## Test and rendering:
+## Test and rendering
 
 We will release the pretrained model of the entire pipeline.
 
@@ -62,18 +62,18 @@ bash scripts/test_fashion.sh
 bash scripts/test_VITON.sh
 ```
 
-## Inversion for real data editing:
+## Inversion for real data editing
 ```
 bash scripts/inverse_semantic.sh
 
 bash scripts/inverse_human.sh
 ```
 
-## Evaluation of Multiple-View Consistency:
+## Evaluation of Multiple-View Consistency
 
 To-do list
 
-## Geometry Visualization using the Normal:
+## Geometry Visualization using the Normal
 
 ![Teaser image](./docs/normal.jpg)
 
@@ -81,7 +81,7 @@ To-do list
 
 To-do list
 
-## Reference code:
+## Reference code
 
 [1] https://github.com/autonomousvision/giraffe
 
