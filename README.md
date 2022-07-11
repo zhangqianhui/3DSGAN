@@ -77,6 +77,10 @@ To-do list
 
 ![Teaser image](./docs/normal.jpg)
 
+## The Evaluation of Multiple-View Consistency: aMP (average Matching Points)
+
+To-do list
+
 ## Reference code:
 
 [1] https://github.com/autonomousvision/giraffe
