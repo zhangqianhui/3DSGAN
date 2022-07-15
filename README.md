@@ -6,7 +6,7 @@ Camera Pose           |  Semantic
 
 Texture           |  Translation
 :-------------------------:|:-------------------------:
-![](./docs/texture.gif)  |  ![](./docs/rotation.gif)
+![](./docs/texture.gif)  |  ![](./docs/translation.gif)
 
 **3D-Aware Semantic-Guided Generative Model for Human Synthesis**<br>
 Jichao Zhang, [Enver Sangineto](https://scholar.google.com/citations?user=eJZlvlAAAAAJ&hl=en), 
