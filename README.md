@@ -1,6 +1,8 @@
 ## 3D-Aware Semantic-Guided Generative Model for Human Synthesis (3D-SGAN) <br><sub>Official PyTorch implementation of our ECCV 2022 paper</sub>
 
-![Teaser image](./docs/teaser.jpg)
+![GIF](./docs/rotation.gif)
+![GIF](./docs/rotation.gif)
+![GIF](./docs/rotation.gif)
 
 **3D-Aware Semantic-Guided Generative Model for Human Synthesis**<br>
 Jichao Zhang, [Enver Sangineto](https://scholar.google.com/citations?user=eJZlvlAAAAAJ&hl=en), 
@@ -86,6 +88,8 @@ To-do list
 [1] https://github.com/autonomousvision/giraffe
 
 [2] https://github.com/rosinality/stylegan2-pytorch
+
+## 
 
 ### Citation
 
