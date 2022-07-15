@@ -2,7 +2,7 @@
 
 Camera Pose           |  Semantic
 :-------------------------:|:-------------------------:
-![](./docs/rotation.gif)  |  ![](./docs/rotation.gif)
+![](./docs/rotation.gif)  |  ![](./docs/semantic.gif)
 
 Texture           |  Translation
 :-------------------------:|:-------------------------:
