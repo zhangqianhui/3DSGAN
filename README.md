@@ -75,10 +75,6 @@ bash scripts/inverse_semantic.sh
 bash scripts/inverse_human.sh
 ```
 
-## Evaluation of Multiple-View Consistency
-
-To-do list
-
 ## Geometry Visualization using the Normal
 
 ![Teaser image](./docs/normal.jpg)
